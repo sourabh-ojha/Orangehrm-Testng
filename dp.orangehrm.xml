@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Education Type">
+  <test name="Demopage Testing">
+  
+  <parameter name="url" value="https://www.orangehrm.com/"></parameter>
+  
+  <parameter name="fullname" value= "Mark Tylor"></parameter>
+  
+  <parameter name="businessemail" value="namine1282@crtsec.com"></parameter>
+  
+  <parameter name="phonenumber" value="9825638735"></parameter>
+    
+  
+    <classes>
+      <class name="Orangehrmwithxml.Demopage">
+      <methods>
+      <include name = "getUrl"></include>
+      </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
